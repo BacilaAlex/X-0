@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_align_right {
+  text-align: right;
+}
+.poz_abs {
+  position: absolute;
+}
