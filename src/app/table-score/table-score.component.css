@@ -1,11 +1,27 @@
-.container {
+.flex_container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tableScore_gridContainer_1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.tableScore_gridContainer_2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
 .text_align_right {
   text-align: right;
-}
-.poz_abs {
-  position: absolute;
 }
