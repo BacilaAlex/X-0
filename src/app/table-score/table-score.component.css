@@ -3,9 +3,21 @@
   justify-content: center;
   align-items: center;
 }
-.text_align_right {
-  text-align: right;
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
-.poz_abs {
-  position: absolute;
+
+.grid_item_1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  align-items: center;
+}
+
+.grid_item_2 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  align-items: center;
+  justify-content: right;
 }

@@ -8,9 +8,9 @@ describe('TableScoreComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ TableScoreComponent ]
+      declarations: [TableScoreComponent]
     })
-    .compileComponents();
+      .compileComponents();
 
     fixture = TestBed.createComponent(TableScoreComponent);
     component = fixture.componentInstance;
